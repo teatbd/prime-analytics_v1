@@ -19,7 +19,7 @@ El objetivo no es solo obtener resultados, sino comprender **cómo crecen, escal
 
 ## 📊 1. Algorithm Performance
 
-imágenes/performance.png
+![Performance](imágenes/performance.png)
 
 ### 💡 Insight
 
@@ -36,7 +36,7 @@ La diferencia entre algoritmos no es incremental, sino estructural.
 
 ## 📊 2. Scaling Behaviour (log-log)
 
-imágenes/registro.png
+![LogLog](imágenes/registro.png)
 
 ### 💡 Insight
 
@@ -53,7 +53,7 @@ Los algoritmos no muestran su verdadera diferencia en problemas pequeños, sino 
 
 ## 📊 3. Speedup Comparison
 
-imágenes/speedup.png
+![Speedup](imágenes/speedup.png)
 
 ### 💡 Insight
 
@@ -70,7 +70,7 @@ A gran escala, la diferencia entre algoritmos deja de ser una cuestión de rendi
 
 ## 📊 4. Prime Density vs Theory
 
-imágenes/density.png
+![Density](imágenes/density.png)
 
 ### 💡 Insight
 
