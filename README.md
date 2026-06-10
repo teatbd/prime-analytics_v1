@@ -19,7 +19,7 @@ El objetivo no es solo obtener resultados, sino comprender **cómo crecen, escal
 
 ## 📊 1. Algorithm Performance
 
-(images/performance.png)
+![Performance](images/performance.png)
 
 ### 💡 Insight
 
