@@ -113,3 +113,9 @@ La matemática emerge del comportamiento colectivo de los números.
 Este proyecto muestra que:
 
 > **el verdadero valor no está en calcular resultados, sino en entender los procesos que los generan.**
+>
+> ## ▶️ How to run
+
+```bash
+python Prime_Analytics_V1.py
+
