@@ -1,33 +1,40 @@
 # 🔷 Prime Analytics v1
 
 ## 🧠 Idea central
-> “No se trata de calcular primos, sino de entender cómo se comportan.”
-> "De la fuerza bruta al entendimiento".
+> “No se trata de calcular primos, sino de entender cómo se comportan.”  
+> “From brute force to insight.”
+
 ---
 
-## Motivación
+## 📌 Motivación
 
-Los números primos parecen distribuirse de forma caótica cuando se observan individualmente. Sin embargo, al analizarlos a gran escala, emergen patrones estadísticos y propiedades matemáticas sorprendentes.
+Los números primos parecen distribuirse de forma caótica cuando se observan individualmente.  
+Sin embargo, al analizarlos a gran escala, emergen patrones estadísticos y propiedades matemáticas sorprendentes.
 
 Este proyecto explora esa aparente contradicción combinando algoritmos, benchmarking, estadística y visualización de datos.
+
+---
 
 ## ⚙️ Objetivos
 
 Este proyecto analiza números primos desde tres perspectivas:
 
-- **Algorítmica** → comparar algoritmos
-- **Performance** → benchmarking y análisis de escalabilidad  
-- **Matemática** → densidad de primos y modelo teórico
-- **Patrones** → comprender cómo emergen patrones globales
+- **Algorítmica** → comparar algoritmos  
+- **Performance** → benchmarking y escalabilidad  
+- **Matemática** → densidad de primos y modelo teórico  
+- **Patrones** → entender cómo emergen estructuras globales  
 
 El objetivo no es solo obtener resultados, sino comprender **cómo crecen, escalan y se comportan** los números primos.
 
-## Preguntas que intenta responder
-¿Qué algoritmo escala mejor?
-¿Cómo evoluciona la densidad de primos?
-¿Por qué la aproximación 1/log(n) funciona tan bien?
-¿Cuándo una optimización deja de ser una mejora y se convierte en un cambio de paradigma?
-¿Puede surgir orden a partir del aparente caos?
+---
+
+## ❓ Preguntas que intenta responder
+
+- ¿Qué algoritmo escala mejor?  
+- ¿Cómo evoluciona la densidad de primos?  
+- ¿Por qué la aproximación 1 / log(n) funciona tan bien?  
+- ¿Cuándo una optimización deja de ser incremental?  
+- ¿Puede surgir orden a partir del aparente caos?  
 
 ---
 
@@ -39,9 +46,9 @@ El objetivo no es solo obtener resultados, sino comprender **cómo crecen, escal
 
 A medida que crece el rango analizado, las diferencias entre algoritmos dejan de ser pequeñas mejoras y pasan a ser cambios estructurales.
 
-El método ingenuo escala rápidamente y se vuelve impracticable, alcanzando tiempos elevados incluso para valores relativamente moderados.
-
-En contraste, la optimización por raíz cuadrada reduce significativamente el tiempo, mientras que la criba de Eratóstenes mantiene un comportamiento casi constante en comparación.
+El método ingenuo escala rápidamente y se vuelve impracticable.  
+La optimización por raíz cuadrada mejora significativamente el rendimiento.  
+La criba de Eratóstenes introduce un cambio de enfoque y mantiene alta eficiencia.
 
 👉 **Conclusión:**  
 La diferencia entre algoritmos no es incremental, sino estructural.
@@ -54,14 +61,12 @@ La diferencia entre algoritmos no es incremental, sino estructural.
 
 ### 💡 Insight
 
-En escala log-log se revela el comportamiento real de la escalabilidad.
+En escala log-log se revela el verdadero comportamiento de la escalabilidad.
 
-El speedup crece de forma sostenida a medida que aumenta el tamaño del problema, mostrando que los algoritmos eficientes no solo son más rápidos, sino que **su ventaja se amplifica con n**.
-
-La relación aproximadamente lineal sugiere un comportamiento de tipo potencia, evidenciando que la diferencia entre enfoques es profunda y no superficial.
+El speedup crece de forma sostenida, mostrando que los algoritmos eficientes no solo son más rápidos, sino que **su ventaja se amplifica con el tamaño del problema**.
 
 👉 **Conclusión:**  
-Los algoritmos no muestran su verdadera diferencia en problemas pequeños, sino en grandes escalas.
+La diferencia entre algoritmos se vuelve evidente solo a gran escala.
 
 ---
 
@@ -71,14 +76,13 @@ Los algoritmos no muestran su verdadera diferencia en problemas pequeños, sino 
 
 ### 💡 Insight
 
-El análisis de speedup muestra cuántas veces un algoritmo es más rápido que otro.
+El speedup mide cuántas veces un algoritmo es más rápido que otro.
 
-La comparación entre el método ingenuo y la optimización por raíz cuadrada revela una mejora significativa.
-
-Sin embargo, la criba de Eratóstenes produce un salto cualitativo: su ventaja crece mucho más rápido con el tamaño del rango.
+- Naive vs √n → mejora significativa  
+- Naive vs Sieve → salto cualitativo  
 
 👉 **Conclusión clave:**  
-A gran escala, la diferencia entre algoritmos deja de ser una cuestión de rendimiento y pasa a ser una cuestión de viabilidad.
+A gran escala, la diferencia deja de ser de rendimiento y pasa a ser de viabilidad.
 
 ---
 
@@ -88,27 +92,26 @@ A gran escala, la diferencia entre algoritmos deja de ser una cuestión de rendi
 
 ### 💡 Insight
 
-La densidad de números primos disminuye a medida que crece el rango, pero lo hace de forma predecible.
+La densidad de primos disminuye con n, pero lo hace de forma predecible.
 
-La aproximación teórica \(1 / \log(n)\) sigue de cerca la densidad real, mejorando su precisión a medida que crece n.
+La aproximación **1 / log(n)** sigue de cerca los datos reales y mejora su precisión a medida que crece el rango.
 
-Esto refleja una propiedad fundamental de los números primos:
-
+👉 Los primos:
 - son impredecibles localmente  
 - pero siguen patrones globales consistentes  
 
 👉 **Conclusión:**  
-La matemática emerge del comportamiento colectivo de los números.
+El orden emerge del comportamiento colectivo.
 
 ---
 
 ## 🔥 Conclusiones generales
 
-- Los algoritmos no escalan de la misma manera  
-- El enfoque tiene mayor impacto que la optimización  
+- Los algoritmos no escalan igual  
+- El enfoque domina sobre la optimización  
 - La eficiencia se vuelve crítica en problemas grandes  
-- Los números primos muestran orden dentro del aparente caos
-- Los patrones globales emergen incluso cuando el comportamiento local parece aleatorio.
+- Los números primos muestran orden dentro del aparente caos  
+- Los patrones globales emergen incluso cuando el comportamiento local parece aleatorio  
 
 ---
 
@@ -128,9 +131,12 @@ La matemática emerge del comportamiento colectivo de los números.
 Este proyecto muestra que:
 
 > **el verdadero valor no está en calcular resultados, sino en entender los procesos que los generan.**
->
+
+---
+
 ## ▶️ How to run
+
+Clone the repository and execute:
 
 ```bash
 python Prime_Analytics_V1.py
-
