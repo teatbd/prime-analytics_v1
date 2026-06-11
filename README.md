@@ -2,18 +2,32 @@
 
 ## 🧠 Idea central
 > “No se trata de calcular primos, sino de entender cómo se comportan.”
-
+> "De la fuerza bruta al entendimiento".
 ---
 
-## ⚙️ Qué hace este proyecto
+## Motivación
+
+Los números primos parecen distribuirse de forma caótica cuando se observan individualmente. Sin embargo, al analizarlos a gran escala, emergen patrones estadísticos y propiedades matemáticas sorprendentes.
+
+Este proyecto explora esa aparente contradicción combinando algoritmos, benchmarking, estadística y visualización de datos.
+
+## ⚙️ Objetivos
 
 Este proyecto analiza números primos desde tres perspectivas:
 
-- **Algorítmica** → comparación de métodos de cálculo  
+- **Algorítmica** → comparar algoritmos
 - **Performance** → benchmarking y análisis de escalabilidad  
-- **Matemática** → densidad de primos y modelo teórico  
+- **Matemática** → densidad de primos y modelo teórico
+- **Patrones** → comprender cómo emergen patrones globales
 
 El objetivo no es solo obtener resultados, sino comprender **cómo crecen, escalan y se comportan** los números primos.
+
+## Preguntas que intenta responder
+¿Qué algoritmo escala mejor?
+¿Cómo evoluciona la densidad de primos?
+¿Por qué la aproximación 1/log(n) funciona tan bien?
+¿Cuándo una optimización deja de ser una mejora y se convierte en un cambio de paradigma?
+¿Puede surgir orden a partir del aparente caos?
 
 ---
 
@@ -93,7 +107,8 @@ La matemática emerge del comportamiento colectivo de los números.
 - Los algoritmos no escalan de la misma manera  
 - El enfoque tiene mayor impacto que la optimización  
 - La eficiencia se vuelve crítica en problemas grandes  
-- Los números primos muestran orden dentro del aparente caos  
+- Los números primos muestran orden dentro del aparente caos
+- Los patrones globales emergen incluso cuando el comportamiento local parece aleatorio.
 
 ---
 
